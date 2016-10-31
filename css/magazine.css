@@ -9,21 +9,21 @@ body{
 	position:absolute;
 	top:50%;
 	left:50%;
-	width:922px;
-	height:600px;
+	width:840px;
+	height:650px;
 	margin:auto;
 }
 
 .magazine-viewport .magazine{
-	width:922px;
-	height:600px;
+	width:840px;
+	height:650px;
 	left:-461px;
 	top:-300px;
 }
 
 .magazine-viewport .page{
 	width:461px;
-	height:600px;
+	height:650px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -146,7 +146,7 @@ body{
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
 	width:22px;
-	height:600px;
+	height:650px;
 	position:absolute;
 	top:0;
 }
