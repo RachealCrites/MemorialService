@@ -77,14 +77,15 @@ function zoomTo(event) {
 // Load regions
 
 function loadRegions(page, element) {
-
-	$.getJSON('pages/'+page+'-regions.json').
-		done(function(data) {
-
-			$.each(data, function(key, region) {
-				addRegion(region, element);
-			});
-		});
+$.getJSON(page+'-regions.json').
+done(function(data) {
+$.each(data, function(key, region) {
+addRegion(region, element);
+});
+}).fail(function( jqxhr, textStatus, error ) {
+var err = textStatus + ", " + error;
+alert( "Request Failed: " + err );
+});
 }
 
 // Add region
