@@ -99,7 +99,7 @@
 .turnjs-slider .ui-slider-handle{
 	position: absolute;
 	z-index:0;
-	width:80px;
+	width:200px;
 	height: 8px;
 	cursor: default;
 	-webkit-border-radius:5px;
@@ -110,12 +110,12 @@
 
 .turnjs-slider .ui-slider-horizontal {
 	height: 8px;
-	width:520px;
-	margin-left:39px;
+	width:400px;
+	margin-left:14px;
 }
 
 .turnjs-slider .ui-slider-horizontal .ui-slider-handle {
-	margin-left:-40px;
+	margin-left:-15px;
 	margin-top:-1px;
 }
 
